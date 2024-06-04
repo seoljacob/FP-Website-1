@@ -1,7 +1,7 @@
 <head>
 <!-- Meta Pixel Code -->
 <script>
-    var __cbSdkHost = "https://d1egeyemb27pxv.cloudfront.net/";
+    var __cbSdkHost = "https://capig.cb-qa-site9.com/";
     var __cbSdkSettings={'cbq':{destinations:[{name:"cloudbridge"},],
     "host":__cbSdkHost,"globalVar":"cbq",}};
     !function(a,h,e,v,n,t,s)
@@ -11,9 +11,9 @@
       n.queue=[];t=h.createElement(e);t.async=!0;
       t.src=v;s=h.getElementsByTagName(e)[0];
       s.parentNode.insertBefore(t,s)}(window, document,'script',
-      "https://d1egeyemb27pxv.cloudfront.net/"+'sdk/capig-events.js');
-    cbq('init', "7418784536493458659");
-    cbq('loadConfig', "7418784536493458659");
+      "https://capig.cb-qa-site9.com/"+'sdk/capig-events.js');
+    cbq('init', "7823297937124645274");
+    cbq('loadConfig', "7823297937124645274");
     cbq('track', 'PageView');
     </script>
 <noscript><img height="1" width="1" style="display:none"
@@ -52,8 +52,8 @@ document.getElementById('checkoutButton').addEventListener('click', function() {
 
 document.getElementById('purchaseButton').addEventListener('click', function() {
   cbq('track', 'Purchase', {
-    // value: 100,
-    value: 'fdsjflds',
+    value: 100,
+    // value: 'fdsjflds',
     currency: 'USD',
   });
 }, false);
